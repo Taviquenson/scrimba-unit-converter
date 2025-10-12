@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="app-div">
+            <div id="header-div">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <div id="number-to-convert-div">
+                    <input type="text" id="number-to-convert-inp" placeholder="0">
+                </div>
+                <button id="convert-btn">Convert</button>
+            </div>
+            <div class="unit-div" id="length-div">
+                <p class="units-title-p" id="length-title-p">Length (Meter/Feet)</p>
+                <p class="units-p" id="length-p">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+            <div class="unit-div" id="volume-div">
+                <p class="units-title-p" id="volume-title-p">Volume (Liters/Gallons)</p>
+                <p class="units-p" id="volume-p">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+            </div>
+            <div class="unit-div" id="mass-div">
+                <p class="units-title-p" id="mass-title-p">Mass (Kilograms/Pounds)</p>
+                <p class="units-p" id="mass-p">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
